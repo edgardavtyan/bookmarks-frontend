@@ -1,0 +1,23 @@
+.toolbar-action {
+	@extend %clearfix;
+	transition: background-color 150ms;
+	cursor: pointer;
+
+	&:hover {
+		background-color: $color-primaryDark;
+	}
+
+	&__arrow,
+	&__icon {
+		width: 24px;
+		height: 24px;
+		float: left;
+	}
+
+	&__title {
+		float: left;
+		margin-left: 8px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
